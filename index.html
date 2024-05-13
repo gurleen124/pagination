@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-100">
+    <main>
+        <section class="fixed top-0 left-0 grid h-screen items-center justify-center z-50 bg-white w-screen"
+            id="preloader">
+            <div class="text-8xl font-bold">Loading...</div>
+        </section>
+        <section class="">
+            <div class="text-7xl font-bold text-center underline underline-offset-8 my-10">Pagination</div>
+            <div class="w-[90vw] mx-auto followers my-20 max-w-6xl">
+                <div class="container grid gap-8 mb-16 grid-cols-4 mx-auto">
+                    <!-- <div class="bg-white rounded-lg shadow-lg py-8 px-14 flex flex-col items-center">
+                        <img src="${avatar_url}" alt="person"
+                            class="rounded-full w-32 h-32 object-cover mb-3">
+                        <h2 class="mb-6 text-sm text-gray-500 font-bold">${login}</h2>
+                        <button type="button"
+                            class="py-1 px-3 tracking-wider text-xs bg-blue-500 uppercase text-white rounded-full border border-transparent transition-all"><a
+                                href="${html_url}">View Profile</a>
+                        </button>
+                    </div> -->
+                    <!-- <div class="bg-white rounded-lg shadow-lg w-fit py-8 px-14 text-center">
+                        <img src="https://avatars.githubusercontent.com/u/3006?v=4" alt="person"
+                            class="rounded-full w-32 h-32 object-cover mb-3">
+                        <h2 class="mb-6 text-sm text-gray-500 font-bold">Tarasis</h2>
+                        <button type="button"
+                            class="py-1 px-3 tracking-wider text-xs bg-blue-500 uppercase text-white rounded-full border border-transparent transition-all"><a
+                                href="/">View Profile</a>
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-wrap justify-center btn-container">
+            <!-- <button class="page-btn w-8 h-8 bg-blue-400 border border-transparent rounded-md transition-all m-2 
+        ${activeIndex === pageIndex ? 'active-btn' : 'null '}" data-index="${pageIndex}">
+  ${pageIndex + 1}
+  </button>`
+    btns.push(`<button class="next-btn bg-transparent border border-transparent font-bold capitalize tracking-wider m-2">next</button>`)
+    btns.unshift(`<button class="prev-btn bg-transparent border border-transparent font-bold capitalize tracking-wider m-2">prev</button>`) -->
+            <!-- <button
+                class="next-btn bg-transparent border border-transparent font-bold capitalize tracking-wider m-2">prev</button>
+            <button type="button"
+                class="w-8 h-8 bg-blue-400 border border-transparent rounded-md transition-all m-2">1</button>
+            <button
+                class="next-btn bg-transparent border border-transparent font-bold capitalize tracking-wider m-2">next</button> -->
+
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

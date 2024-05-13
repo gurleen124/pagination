@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active-btn{
+    background-color: navy;
+    color: white;
+}
